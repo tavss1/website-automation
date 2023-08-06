@@ -1,4 +1,4 @@
-# Passo a passo do projeto de automação (sempre pensar como realizaria manualmente)
+# Passo a passo do projeto de automação;
 
 # Passo 1: Entrar no sistema da empresa
     # https://dlp.hashtagtreinamentos.com/python/intensivao/login
@@ -7,9 +7,7 @@ import pandas as pd
 import pyautogui as py
 import time
 
-# pyautogui.hotkey -> combinação de teclas
 # pyautogui.PAUSE -> delay entre as exec
-
 py.PAUSE = 0.7
 
 # abrir o navegador(chrome)
